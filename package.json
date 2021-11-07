@@ -1,0 +1,22 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "description": "a randomised scribble",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "keywords": [
+    "nft",
+    "generative"
+  ],
+  "author": "Fraser Young",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^1.4.0"
+  }
+}
