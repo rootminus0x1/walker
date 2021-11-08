@@ -1,12 +1,18 @@
 // main
 
+let w1;
+
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(700, 400, WEBGL);
+    w1 = new Walker(200, -300, 50, 1, 0);
 }
   
 function draw() {
-    const diameter = 80;
     background(220);
-    circle(50,50, diameter);
+
+    w1.move();
+    w1.display();
+
+    //ellipse(200, 200, 100/5, 100);
 }
   
